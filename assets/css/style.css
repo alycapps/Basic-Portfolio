@@ -1,18 +1,26 @@
 body {
     background-image: url("../images/tree_bark/tree_bark.png");
+    width: 100%;
+
 }
 
 .header {
     background-color: #ffffff;
     overflow: hidden;
-    border: red dotted;
-    width: auto;
-    margin: auto;
+    border: #cccccc 2px;
+    border-style: hidden hidden solid hidden;
+    width: 100%;
+    /*margin: 0 0 0 -15px;*/
+    height: 75px;
 }
 
 .name {
-    position: center;
+    /*position: center;*/
     bottom: 0;
+    height: 75px;
+    margin: auto;
+    vertical-align: baseline;
+    text-align: bottom;
 }
 
 h1 {
@@ -38,10 +46,14 @@ h1 {
     margin: 10px auto;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+h2 {
+    border:#dddddd 2px;
+    border-style: hidden hidden solid hidden;
+    padding: 0 0 15px 0;
+}
 
 p {
     color: #777777;
-    border: pink dotted;
 }
 
 #prof-pic {
@@ -49,6 +61,7 @@ p {
     max-height:20%;
     float: left;
     border: black dotted;
+    margin: 15px;
 }
 
 .footer {
@@ -58,4 +71,6 @@ p {
     color: #ffffff;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border: #4aaaa5 10px;
+    border-style: solid hidden hidden hidden;
 }
