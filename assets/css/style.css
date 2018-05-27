@@ -1,0 +1,39 @@
+body {
+    background-image: url("./assets/images/tree_bark/tree_bark.png");
+}
+
+.header {
+    background-color: #ffffff;
+    overflow: hidden;
+    border: red dotted;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+    border: green dotted;
+}
+
+.page-tab {
+    color: #777777;
+    float: right;
+    border: blue dotted;
+}
+
+.aboutsection {
+    border: orange dotted;
+    background-color: #ffffff;
+}
+
+p {
+    color: green;
+    border: pink dotted;
+}
+
+#prof-pic {
+    max-width:20%;
+    max-height:20%;
+    float: left;
+    border: black dotted;
+}
