@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/tree_bark/tree_bark.png");
+    background-image: url("../images/shattered.png");
     width: 100%;
 
 }
@@ -27,7 +27,6 @@ h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     float: left;
-    border: green dotted;
 }
 
 .page-tab {
@@ -38,7 +37,6 @@ h1 {
 }
 
 .aboutsection {
-    border: orange dotted;
     background-color: #ffffff;
     overflow: hidden;
     padding: 10px 20px;
@@ -60,7 +58,6 @@ p {
     max-width:20%;
     max-height:20%;
     float: left;
-    border: black dotted;
     margin: 15px;
 }
 
