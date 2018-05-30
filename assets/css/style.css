@@ -68,17 +68,37 @@ p {
     margin: 15px;
 }
 
+
 #portfolio {
-    color:#ffffff;
-    background-color: #4aaaa5;
+   
+}
+
+.portfoliobox {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    float: left;
 }
 
 /*this controls the portfolio pics*/
 .portfoliopic {
     width: 400px;
     height: 300px;
-    float: left;
-    padding: 20px 10px;
+    margin: 20px 10px;
+    position: absolute;
+}
+
+/*this controls the text boxes over the portfolio pics*/
+.text-box {
+    position:absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    bottom: 2px;
+    width: 100%;
+    margin: 0 10px;
+    padding: 10px 0;
 }
 
 .footer {
