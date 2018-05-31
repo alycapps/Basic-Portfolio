@@ -13,6 +13,10 @@ body {
     /*margin: 0 0 0 -15px;*/
     height: 75px;
     padding: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    text-align: middle;
+    
 }
 
 .name {
@@ -20,24 +24,30 @@ body {
     bottom: 0;
     height: 75px;
     margin: auto;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
     /*text-align: bottom;*/
-}
-
-h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     float: left;
-    /*text-align: bottom;*/
     padding: 10px;
 }
+
 
 /*this section controls the tabs to switch between pages*/
 .page-tab {
     color: #777777;
-    float: right;
-    border: blue dotted;
+    /*float: right;*/
     font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    height: 25px;
+    vertical-align: middle;
+    padding: 0;
+    margin:0;
+    bottom: 25px;
+    right: 0;
+    /*bottom: 37px;*/
+    /*width: 25px;*/
+    /*right: 20px;*/
 }
 
 .aboutsection {
@@ -67,7 +77,6 @@ p {
     float: left;
     margin: 15px;
 }
-
 
 #portfolio {
    
@@ -116,7 +125,6 @@ p {
     bottom: 0;
     margin: 0;
     padding: 0;
-    text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: absolute;
     width: 100%;
