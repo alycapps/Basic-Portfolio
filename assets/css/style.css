@@ -49,6 +49,12 @@ body {
     /*right: 20px;*/
 }
 
+.page-tab a {
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+}
+
 .aboutsection {
     background-color: #ffffff;
     overflow: hidden;
